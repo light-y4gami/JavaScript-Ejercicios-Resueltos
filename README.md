@@ -1,1 +1,1 @@
-# JavaScript-Ejericios-Resueltos
+# JavaScript-Ejercicios-Resueltos
