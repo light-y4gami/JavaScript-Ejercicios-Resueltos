@@ -1,0 +1,55 @@
+Múltiples opciones idénticas en las declaraciones "switch"
+
+Si la sentencia break es omitida en un caso (case) de una sentencia switch, las siguientes sentencias case serán ejecutadas hasta encontrar un break. Si tienes múltiples entradas con la misma salida, puedes representarlas en una sentencia switch como esta:
+
+let result = "";
+switch (val) {
+  case 1:
+  case 2:
+  case 3:
+    result = "1, 2, or 3";
+    break;
+  case 4:
+    result = "4 alone";
+}
+
+Los casos 1, 2 y 3 producirán el mismo resultado.
+
+
+
+
+Escribe una declaración switch para establecer answer con los siguientes rangos:
+1-3 - Low
+4-6 - Mid
+7-9 - High
+
+function sequentialSizes(val) {
+  let answer = "";
+  // Cambia solo el código debajo de esta línea
+
+
+
+  // Cambia solo el código encima de esta línea
+  return answer;
+}
+
+sequentialSizes(1);
+
+Copia y pega el codigo en el IDE que uses...
+
+Nota: Necesitarás tener un case para cada número dentro del rango.
+
+Pistas:
+
+sequentialSizes(1) debe devolver la cadena Low
+sequentialSizes(2) debe devolver la cadena Low
+sequentialSizes(3) debe devolver la cadena Low
+sequentialSizes(4) debe devolver la cadena Mid
+sequentialSizes(5) debe devolver la cadena Mid
+sequentialSizes(6) debe devolver la cadena Mid
+sequentialSizes(7) debe devolver la cadena High
+sequentialSizes(8) debe devolver la cadena High
+sequentialSizes(9) debe devolver la cadena High
+No debes utilizar las sentencias if o else
+Debes tener nueve sentencias case
+
